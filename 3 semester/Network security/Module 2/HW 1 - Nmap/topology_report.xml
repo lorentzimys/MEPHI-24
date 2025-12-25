@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94 scan initiated Sat Oct  4 12:11:21 2025 as: &quot;C:\\Program Files (x86)\\Nmap\\nmap.exe&quot; -sS -sV -O -oX topology_report.xml 192.168.1.0/24 -->
+<nmaprun scanner="nmap" args="&quot;C:\\Program Files (x86)\\Nmap\\nmap.exe&quot; -sS -sV -O -oX topology_report.xml 192.168.1.0/24" start="1759565481" startstr="Sat Oct  4 12:11:21 2025" version="7.94" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1000" services="1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.1" addrtype="ipv4"/>
+<address addr="50:FF:20:D4:DE:47" addrtype="mac" vendor="Keenetic Limited"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.104" addrtype="ipv4"/>
+<address addr="F0:B0:40:59:A2:17" addrtype="mac" vendor="Hunan FN-Link Technology Limited"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.61" addrtype="ipv4"/>
+<address addr="BE:94:CC:81:0A:D4" addrtype="mac"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.100" addrtype="ipv4"/>
+<address addr="AE:F0:09:7E:10:4B" addrtype="mac"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.71" addrtype="ipv4"/>
+<address addr="F4:FE:FB:32:25:E6" addrtype="mac" vendor="Samsung Electronics"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.37" addrtype="ipv4"/>
+<address addr="84:25:19:34:30:6C" addrtype="mac" vendor="Samsung Electronics"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.43" addrtype="ipv4"/>
+<address addr="CC:4B:73:EF:E4:6A" addrtype="mac" vendor="Ampak Technology"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1759565497" endtime="1759565733"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.1" addrtype="ipv4"/>
+<address addr="50:FF:20:D4:DE:47" addrtype="mac" vendor="Keenetic Limited"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="993">
+<extrareasons reason="reset" count="993" proto="tcp" ports="1,3-4,6-7,9,13,17,19-21,24-26,30,32-33,37,42-43,49,70,79,81-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,444-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="telnet" servicefp="SF-Port23-TCP:V=7.94%I=7%D=10/4%Time=68E0D6D6%P=i686-pc-windows-windows%r(NULL,63,&quot;\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\x1b\[KKeeneticOS\x20version\x204\.03\.C\.3\.0-3,\x20copyright\x20\(c\)\x202010-2025\x20Keenetic\x20Ltd\.\r\n\r\nLogin:\x20\x1b\[K&quot;)%r(GenericLines,7E,&quot;\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\x1b\[KKeeneticOS\x20version\x204\.03\.C\.3\.0-3,\x20copyright\x20\(c\)\x202010-2025\x20Keenetic\x20Ltd\.\r\n\r\nLogin:\x20\x1b\[K\r\nPassword:\x20\x1b\[K\r\nLogin:\x20\x1b\[K&quot;)%r(tn3270,63,&quot;\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\x1b\[KKeeneticOS\x20version\x204\.03\.C\.3\.0-3,\x20copyright\x20\(c\)\x202010-2025\x20Keenetic\x20Ltd\.\r\n\r\nLogin:\x20\x1b\[K&quot;)%r(GetRequest,75,&quot;\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03GET\x20/\x20HTTP/1\.0\r\n\r\n\x1b\[KKeeneticOS\x20version\x204\.03\.C\.3\.0-3,\x20copyright\x20\(c\)\x202010-2025\x20Keenetic\x20Ltd\.\r\n\r\nLogin:\x20\x1b\[K&quot;)%r(RPCCheck,F,&quot;\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\x1b\[K&quot;)%r(Help,63,&quot;\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\x1b\[KKeeneticOS\x20version\x204\.03\.C\.3\.0-3,\x20copyright\x20\(c\)\x202010-2025\x20Keenetic\x20Ltd\.\r\n\r\nLogin:\x20\x1b\[K&quot;)%r(SIPOptions,63,&quot;\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\x1b\[KKeeneticOS\x20version\x204\.03\.C\.3\.0-3,\x20copyright\x20\(c\)\x202010-2025\x20Keenetic\x20Ltd\.\r\n\r\nLogin:\x20\x1b\[K&quot;)%r(NCP,C,&quot;\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03&quot;);" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" extrainfo="unknown banner: unbound 1.23.1" servicefp="SF-Port53-TCP:V=7.94%I=7%D=10/4%Time=68E0D6DB%P=i686-pc-windows-windows%r(DNSVersionBindReqTCP,46,&quot;\0D\0\x06\x81\x80\0\x01\0\x01\0\0\0\x01\x07version\x04bind\0\0\x10\0\x03\xc0\x0c\0\x10\0\x03\0\0\0\0\0\x0f\x0eunbound\x201\.23\.1\0\0\)\x10\0\0\0\0\0\0\0&quot;);" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Web server" servicefp="SF-Port80-TCP:V=7.94%I=7%D=10/4%Time=68E0D6D6%P=i686-pc-windows-windows%r(GetRequest,E9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20Web\x20server\r\nDate:\x20Sat,\x2004\x20Oct\x202025\x2008:12:07\x20GMT\r\nContent-Length:\x2070\r\nConnection:\x20close\r\nX-Detail:\x200xcc56,\x20missing\x20host\x20header\r\n\r\n&lt;html&gt;\n&lt;head&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;h1&gt;400:\x20Bad\x20Request&lt;/h1&gt;\n&lt;/body&gt;\n&lt;/html&gt;&quot;)%r(HTTPOptions,E9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20Web\x20server\r\nDate:\x20Sat,\x2004\x20Oct\x202025\x2008:12:08\x20GMT\r\nContent-Length:\x2070\r\nConnection:\x20close\r\nX-Detail:\x200xcc56,\x20missing\x20host\x20header\r\n\r\n&lt;html&gt;\n&lt;head&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;h1&gt;400:\x20Bad\x20Request&lt;/h1&gt;\n&lt;/body&gt;\n&lt;/html&gt;&quot;)%r(RTSPRequest,131,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20Web\x20server\r\nDate:\x20Sat,\x2004\x20Oct\x202025\x2008:12:08\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x20155\r\nConnection:\x20close\r\n\r\n&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body&gt;\r\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;Web\x20server&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n&quot;)%r(X11Probe,131,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20Web\x20server\r\nDate:\x20Sat,\x2004\x20Oct\x202025\x2008:12:08\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x20155\r\nConnection:\x20close\r\n\r\n&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body&gt;\r\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;Web\x20server&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n&quot;)%r(FourOhFourRequest,E9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20Web\x20server\r\nDate:\x20Sat,\x2004\x20Oct\x202025\x2008:12:08\x20GMT\r\nContent-Length:\x2070\r\nConnection:\x20close\r\nX-Detail:\x200xcc56,\x20missing\x20host\x20header\r\n\r\n&lt;html&gt;\n&lt;head&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;h1&gt;400:\x20Bad\x20Request&lt;/h1&gt;\n&lt;/body&gt;\n&lt;/html&gt;&quot;)%r(RPCCheck,131,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20Web\x20server\r\nDate:\x20Sat,\x2004\x20Oct\x202025\x2008:12:13\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x20155\r\nConnection:\x20close\r\n\r\n&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body&gt;\r\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;Web\x20server&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n&quot;);" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="1900"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="upnp" product="MiniUPnP" version="2.0" extrainfo="UPnP 1.1" servicefp="SF-Port1900-TCP:V=7.94%I=7%D=10/4%Time=68E0D6D6%P=i686-pc-windows-windows%r(GetRequest,115,&quot;HTTP/1\.0\x20404\x20Not\x20Found\r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\nContent-Length:\x20134\r\nServer:\x20Keenetic\x20Ltd\.\x20UPnP/1\.1\x20MiniUPnPd/2\.0\r\nExt:\r\n\r\n&lt;HTML&gt;&lt;HEAD&gt;&lt;TITLE&gt;404\x20Not\x20Found&lt;/TITLE&gt;&lt;/HEAD&gt;&lt;BODY&gt;&lt;H1&gt;Not\x20Found&lt;/H1&gt;The\x20requested\x20URL\x20was\x20not\x20found\x20on\x20this\x20server\.&lt;/BODY&gt;&lt;/HTML&gt;\r\n&quot;)%r(GenericLines,122,&quot;\x20501\x20Not\x20Implemented\r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\nContent-Length:\x20149\r\nServer:\x20Keenetic\x20Ltd\.\x20UPnP/1\.1\x20MiniUPnPd/2\.0\r\nExt:\r\n\r\n&lt;HTML&gt;&lt;HEAD&gt;&lt;TITLE&gt;501\x20Not\x20Implemented&lt;/TITLE&gt;&lt;/HEAD&gt;&lt;BODY&gt;&lt;H1&gt;Not\x20Implemented&lt;/H1&gt;The\x20HTTP\x20Method\x20is\x20not\x20implemented\x20by\x20this\x20server\.&lt;/BODY&gt;&lt;/HTML&gt;\r\n&quot;)%r(HTTPOptions,12A,&quot;HTTP/1\.0\x20501\x20Not\x20Implemented\r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\nContent-Length:\x20149\r\nServer:\x20Keenetic\x20Ltd\.\x20UPnP/1\.1\x20MiniUPnPd/2\.0\r\nExt:\r\n\r\n&lt;HTML&gt;&lt;HEAD&gt;&lt;TITLE&gt;501\x20Not\x20Implemented&lt;/TITLE&gt;&lt;/HEAD&gt;&lt;BODY&gt;&lt;H1&gt;Not\x20Implemented&lt;/H1&gt;The\x20HTTP\x20Method\x20is\x20not\x20implemented\x20by\x20this\x20server\.&lt;/BODY&gt;&lt;/HTML&gt;\r\n&quot;)%r(RTSPRequest,12A,&quot;RTSP/1\.0\x20501\x20Not\x20Implemented\r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\nContent-Length:\x20149\r\nServer:\x20Keenetic\x20Ltd\.\x20UPnP/1\.1\x20MiniUPnPd/2\.0\r\nExt:\r\n\r\n&lt;HTML&gt;&lt;HEAD&gt;&lt;TITLE&gt;501\x20Not\x20Implemented&lt;/TITLE&gt;&lt;/HEAD&gt;&lt;BODY&gt;&lt;H1&gt;Not\x20Implemented&lt;/H1&gt;The\x20HTTP\x20Method\x20is\x20not\x20implemented\x20by\x20this\x20server\.&lt;/BODY&gt;&lt;/HTML&gt;\r\n&quot;)%r(FourOhFourRequest,115,&quot;HTTP/1\.0\x20404\x20Not\x20Found\r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\nContent-Length:\x20134\r\nServer:\x20Keenetic\x20Ltd\.\x20UPnP/1\.1\x20MiniUPnPd/2\.0\r\nExt:\r\n\r\n&lt;HTML&gt;&lt;HEAD&gt;&lt;TITLE&gt;404\x20Not\x20Found&lt;/TITLE&gt;&lt;/HEAD&gt;&lt;BODY&gt;&lt;H1&gt;Not\x20Found&lt;/H1&gt;The\x20requested\x20URL\x20was\x20not\x20found\x20on\x20this\x20server\.&lt;/BODY&gt;&lt;/HTML&gt;\r\n&quot;)%r(SIPOptions,129,&quot;SIP/2\.0\x20501\x20Not\x20Implemented\r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\nContent-Length:\x20149\r\nServer:\x20Keenetic\x20Ltd\.\x20UPnP/1\.1\x20MiniUPnPd/2\.0\r\nExt:\r\n\r\n&lt;HTML&gt;&lt;HEAD&gt;&lt;TITLE&gt;501\x20Not\x20Implemented&lt;/TITLE&gt;&lt;/HEAD&gt;&lt;BODY&gt;&lt;H1&gt;Not\x20Implemented&lt;/H1&gt;The\x20HTTP\x20Method\x20is\x20not\x20implemented\x20by\x20this\x20server\.&lt;/BODY&gt;&lt;/HTML&gt;\r\n&quot;);" method="probed" conf="10"><cpe>cpe:/a:miniupnp_project:miniupnpd:2.0</cpe></service></port>
+<port protocol="tcp" portid="3517"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="802-11-iapp" method="table" conf="3"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="23"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<osmatch name="Linux 3.10 - 4.11" accuracy="96" line="63448">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.18" accuracy="95" line="64420">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3.18</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 4.9" accuracy="94" line="65323">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.4" accuracy="93" line="67634">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:4.4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.26 - 2.6.35" accuracy="93" line="53112">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.13" accuracy="93" line="56610">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16 - 4.6" accuracy="93" line="64382">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.23 - 2.6.38" accuracy="91" line="52089">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 2.6.39" accuracy="91" line="56472">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.37" accuracy="91" line="57493">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:2.6.37</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="5838293" lastboot="Mon Jul 28 22:30:40 2025"/>
+<distance value="1"/>
+<tcpsequence index="261" difficulty="Good luck!" values="4A3C8672,BDC5AE44,D42015BD,9E0B170F,D67EF160,515B25BE"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="other" values="56FF27B0,56FF27C8,56FF27E8,56FF2800,56FF2818,56FF2838"/>
+<times srtt="12032" rttvar="19016" to="100000"/>
+</host>
+<host starttime="1759565497" endtime="1759565726"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.37" addrtype="ipv4"/>
+<address addr="84:25:19:34:30:6C" addrtype="mac" vendor="Samsung Electronics"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="995">
+<extrareasons reason="reset" count="995" proto="tcp" ports="1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79,81-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-514,524,541,543-545,548,554-555,563,587,593,616-617,625,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099,9101-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Samsung SyncThru Web Service" devicetype="printer" method="probed" conf="10"><cpe>cpe:/a:samsung:syncthru_web_service</cpe></service></port>
+<port protocol="tcp" portid="515"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="printer" servicefp="SF-Port515-TCP:V=7.94%I=7%D=10/4%Time=68E0D70B%P=i686-pc-windows-windows%r(TerminalServerCookie,24,&quot;PortThru\x20lpd:\x20No\x20Jobs\x20on\x20this\x20queue\n&quot;);" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Samsung SyncThru Web Service" devicetype="printer" method="probed" conf="10"><cpe>cpe:/a:samsung:syncthru_web_service</cpe></service></port>
+<port protocol="tcp" portid="5200"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="9100"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="44329"/>
+<osmatch name="VxWorks" accuracy="98" line="105706">
+<osclass type="general purpose" vendor="Wind River" osfamily="VxWorks" accuracy="98"><cpe>cpe:/o:windriver:vxworks</cpe></osclass>
+</osmatch>
+<osmatch name="HP LaserJet M2727nf or P1505n printer" accuracy="98" line="34126">
+<osclass type="printer" vendor="HP" osfamily="embedded" accuracy="98"/>
+</osmatch>
+<osmatch name="HP printer (M1120n, M1522n, CP1515n, CP2025dn, or CP2525dn)" accuracy="98" line="34757">
+<osclass type="printer" vendor="HP" osfamily="embedded" accuracy="98"/>
+</osmatch>
+<osmatch name="NEC Univerge SV8300 PBX" accuracy="98" line="87209">
+<osclass type="PBX" vendor="NEC" osfamily="embedded" accuracy="98"><cpe>cpe:/h:nec:univerge_sv8300</cpe></osclass>
+</osmatch>
+<osmatch name="Blackboard transaction system serial-to-IP converter" accuracy="98" line="10046">
+<osclass type="bridge" vendor="Blackboard" osfamily="embedded" accuracy="98"/>
+</osmatch>
+<osmatch name="HP LaserJet M451dn, CM1415fnw, or CP4525" accuracy="98" line="34199">
+<osclass type="printer" vendor="HP" osfamily="embedded" accuracy="98"><cpe>cpe:/h:hp:laserjet_cp4525</cpe><cpe>cpe:/h:hp:laserjet_m451dn</cpe></osclass>
+</osmatch>
+<osmatch name="HP LaserJet M476dw printer" accuracy="97" line="34218">
+<osclass type="printer" vendor="HP" osfamily="embedded" accuracy="97"><cpe>cpe:/h:hp:laserjet_m476dw</cpe></osclass>
+</osmatch>
+<osmatch name="Keyence CV-X150F Image Sensor/Controller (VxWorks)" accuracy="97" line="41732">
+<osclass type="specialized" vendor="Keyence" osfamily="embedded" accuracy="97"><cpe>cpe:/h:keyence:cv-x150f</cpe></osclass>
+<osclass type="general purpose" vendor="Wind River" osfamily="VxWorks" accuracy="97"><cpe>cpe:/o:windriver:vxworks</cpe></osclass>
+</osmatch>
+<osmatch name="VxWorks: HP printer or Vocality BASICS Four Wire VoIP gateway" accuracy="97" line="105967">
+<osclass type="general purpose" vendor="Wind River" osfamily="VxWorks" accuracy="97"><cpe>cpe:/o:windriver:vxworks</cpe></osclass>
+<osclass type="printer" vendor="HP" osfamily="embedded" accuracy="97"/>
+<osclass type="VoIP adapter" vendor="Vocality" osfamily="embedded" accuracy="97"/>
+</osmatch>
+<osmatch name="HP iLO 3 or iLO 4 remote management interface" accuracy="96" line="36669">
+<osclass type="remote management" vendor="HP" osfamily="iLO" osgen="4.X" accuracy="96"><cpe>cpe:/o:hp:ilo:4</cpe></osclass>
+<osclass type="remote management" vendor="HP" osfamily="iLO" osgen="3.X" accuracy="96"><cpe>cpe:/o:hp:ilo:3</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.94%E=4%D=10/4%OT=80%CT=1%CU=44329%PV=Y%DS=1%DC=D%G=Y%M=842519%T&#xa;OS:M=68E0D7A5%P=i686-pc-windows-windows)SEQ()SEQ(CI=I%II=I%TS=A)SEQ(SP=101%&#xa;OS:GCD=1%ISR=10B%TI=I%II=I%TS=A)SEQ(SP=102%GCD=1%ISR=10B%TI=I%CI=I%II=I%TS=&#xa;OS:A)SEQ(SP=FF%GCD=1%ISR=10D%TI=I%II=I%TS=A)OPS(O1=M5B4NW0NNSNNT11%O2=M578N&#xa;OS:W0NNSNNT11%O3=M280NW0NNT11%O4=M5B4NW0NNSNNT11%O5=M218NW0NNSNNT11%O6=M109&#xa;OS:NNSNNT11)OPS(O1=NNT11%O2=NNT11%O3=NNT11%O4=NNT11%O5=M218NW0NNSNNT11%O6=M&#xa;OS:109NNSNNT11)OPS(O1=NNT11%O2=NNT11%O3=NNT11%O4=NNT11%O5=NNT11%O6=NNT11)WI&#xa;OS:N(W1=21F0%W2=2088%W3=2258%W4=21F0%W5=20C0%W6=209D)ECN(R=Y%DF=Y%T=40%W=22&#xa;OS:38%O=%CC=N%Q=)ECN(R=Y%DF=Y%T=40%W=2238%O=M5B4NW0NNS%CC=N%Q=)T1(R=Y%DF=Y%&#xa;OS:T=40%S=O%A=O%F=A%RD=0%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T&#xa;OS:3(R=N)T4(R=Y%DF=N%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=N%T=40%W=0%S&#xa;OS:=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=N%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R&#xa;OS:=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=FF%IPL=38%UN=0%R&#xa;OS:IPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=FF%CD=S)&#xa;"/>
+</os>
+<distance value="1"/>
+<times srtt="21698" rttvar="24481" to="119622"/>
+</host>
+<host starttime="1759565497" endtime="1759565688"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.43" addrtype="ipv4"/>
+<address addr="CC:4B:73:EF:E4:6A" addrtype="mac" vendor="Ampak Technology"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="1000">
+<extrareasons reason="reset" count="1000" proto="tcp" ports="1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"/>
+</extraports>
+</ports>
+<os><portused state="closed" proto="tcp" portid="1"/>
+<osmatch name="Citrix Access Gateway VPN gateway" accuracy="100" line="19126">
+<osclass type="proxy server" vendor="Citrix" osfamily="embedded" accuracy="100"/>
+</osmatch>
+<osmatch name="Juniper SA2500 SSL VPN gateway or Digi Passport console server" accuracy="100" line="41045">
+<osclass type="firewall" vendor="Juniper" osfamily="embedded" accuracy="100"/>
+<osclass type="remote management" vendor="Digi" osfamily="embedded" accuracy="100"/>
+</osmatch>
+</os>
+<distance value="1"/>
+<times srtt="16082" rttvar="19470" to="100000"/>
+</host>
+<host starttime="1759565497" endtime="1759565725"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.61" addrtype="ipv4"/>
+<address addr="BE:94:CC:81:0A:D4" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="998">
+<extrareasons reason="reset" count="998" proto="tcp" ports="1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49153-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,63331,64623,64680,65000,65129,65389"/>
+</extraports>
+<port protocol="tcp" portid="49152"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="62078"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="iphone-sync" method="table" conf="3"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="62078"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="42334"/>
+<osmatch name="Apple macOS 11 (Big Sur) (Darwin 20.6.0)" accuracy="93" line="107991">
+<osclass type="general purpose" vendor="Apple" osfamily="macOS" osgen="11.X" accuracy="93"/>
+</osmatch>
+<osmatch name="Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0)" accuracy="90" line="3612">
+<osclass type="phone" vendor="Apple" osfamily="iOS" osgen="11.X" accuracy="90"><cpe>cpe:/o:apple:iphone_os:11</cpe></osclass>
+<osclass type="phone" vendor="Apple" osfamily="iOS" osgen="12.X" accuracy="90"><cpe>cpe:/o:apple:iphone_os:12</cpe></osclass>
+<osclass type="phone" vendor="Apple" osfamily="iOS" osgen="13.X" accuracy="90"><cpe>cpe:/o:apple:iphone_os:13</cpe></osclass>
+<osclass type="general purpose" vendor="Apple" osfamily="macOS" osgen="10.13.X" accuracy="90"><cpe>cpe:/o:apple:mac_os_x:10.13</cpe></osclass>
+<osclass type="general purpose" vendor="Apple" osfamily="macOS" osgen="10.14.X" accuracy="90"><cpe>cpe:/o:apple:mac_os_x:10.14</cpe></osclass>
+<osclass type="general purpose" vendor="Apple" osfamily="macOS" osgen="10.15.X" accuracy="90"><cpe>cpe:/o:apple:mac_os_x:10.15</cpe></osclass>
+</osmatch>
+<osmatch name="Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0)" accuracy="90" line="7509">
+<osclass type="general purpose" vendor="Apple" osfamily="OS X" osgen="10.11.X" accuracy="90"><cpe>cpe:/o:apple:mac_os_x:10.11</cpe></osclass>
+<osclass type="media device" vendor="Apple" osfamily="iOS" osgen="12.X" accuracy="90"><cpe>cpe:/o:apple:iphone_os:12</cpe></osclass>
+<osclass type="media device" vendor="Apple" osfamily="iOS" osgen="13.X" accuracy="90"/>
+</osmatch>
+<osmatch name="Apple macOS 10.15 (Catalina) (Darwin 19.6.0)" accuracy="90" line="108025">
+<osclass type="general purpose" vendor="Apple" osfamily="macOS" osgen="10.15.X" accuracy="90"/>
+</osmatch>
+<osmatch name="Apple TV 5" accuracy="86" line="3338">
+<osclass type="media device" vendor="Apple" osfamily="Apple TV" osgen="5.X" accuracy="86"><cpe>cpe:/o:apple:apple_tv:5</cpe></osclass>
+</osmatch>
+<osmatch name="Apple macOS 12 (Monterey) (Darwin 21.6.0)" accuracy="86" line="108008">
+<osclass type="general purpose" vendor="Apple" osfamily="macOS" osgen="12.X" accuracy="86"/>
+</osmatch>
+<osmatch name="Apple TV 5.2.1 or 5.3" accuracy="85" line="3357">
+<osclass type="media device" vendor="Apple" osfamily="Apple TV" osgen="5.X" accuracy="85"><cpe>cpe:/a:apple:apple_tv:5.2.1</cpe><cpe>cpe:/a:apple:apple_tv:5.3</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.94%E=4%D=10/4%OT=62078%CT=1%CU=42334%PV=Y%DS=1%DC=D%G=Y%M=BE94C&#xa;OS:C%TM=68E0D7A5%P=i686-pc-windows-windows)SEQ(CI=RD%II=RI)SEQ(CI=RD%II=RI%&#xa;OS:TS=20)SEQ(SP=103%GCD=1%ISR=109%TI=Z%CI=RD%II=RI%TS=21)OPS(O1=%O2=%O3=%O4&#xa;OS:=%O5=%O6=)OPS(O1=%O2=%O3=%O4=%O5=M5B4NW6NNT11SLL%O6=M5B4NNT11SLL)OPS(O1=&#xa;OS:M5B4NW6NNT11SLL%O2=M5B4NW6NNT11SLL%O3=M5B4NW6NNT11%O4=M5B4NW6NNT11SLL%O5&#xa;OS:=M5B4NW6NNT11SLL%O6=M5B4NNT11SLL)WIN(W1=0%W2=0%W3=0%W4=0%W5=0%W6=0)WIN(W&#xa;OS:1=0%W2=0%W3=0%W4=0%W5=418%W6=1FA)WIN(W1=B50%W2=AD8%W3=4E8%W4=FFFF%W5=418&#xa;OS:%W6=1FA)ECN(R=Y%DF=N%T=40%W=0%O=%CC=N%Q=)ECN(R=Y%DF=Y%T=40%W=0%O=M5B4NW6&#xa;OS:SLL%CC=N%Q=)ECN(R=Y%DF=Y%T=40%W=0%O=M5B4NW6SLL%CC=Y%Q=)T1(R=Y%DF=N%T=40%&#xa;OS:S=Z%A=S+%F=AR%RD=0%Q=)T1(R=Y%DF=Y%T=40%S=O%A=O%F=AS%RD=0%Q=)T1(R=Y%DF=Y%&#xa;OS:T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=N)T5(R=Y%DF=N%T=40%W=0%S=Z&#xa;OS:%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y&#xa;OS:%DF=N%T=40%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=38%UN=0%RIPL&#xa;OS:=G%RID=G%RIPCK=G%RUCK=0%RUD=G)IE(R=Y%DFI=S%T=40%CD=S)&#xa;"/>
+</os>
+<distance value="1"/>
+<times srtt="37257" rttvar="36985" to="185197"/>
+</host>
+<host starttime="1759565497" endtime="1759565691"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.71" addrtype="ipv4"/>
+<address addr="F4:FE:FB:32:25:E6" addrtype="mac" vendor="Samsung Electronics"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="1000">
+<extrareasons reason="no-response" count="1000" proto="tcp" ports="1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"/>
+</extraports>
+</ports>
+<os></os>
+<distance value="1"/>
+<times srtt="71843" rttvar="50625" to="274343"/>
+</host>
+<host starttime="1759565497" endtime="1759565725"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.100" addrtype="ipv4"/>
+<address addr="AE:F0:09:7E:10:4B" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="999">
+<extrareasons reason="reset" count="999" proto="tcp" ports="1,3-4,6-7,9,13,17,19-21,23-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" product="OpenSSH" version="10.0" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:10.0</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="35138"/>
+<osmatch name="Apple macOS 11 (Big Sur) (Darwin 20.6.0)" accuracy="95" line="107991">
+<osclass type="general purpose" vendor="Apple" osfamily="macOS" osgen="11.X" accuracy="95"/>
+</osmatch>
+<osmatch name="Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0)" accuracy="93" line="7509">
+<osclass type="general purpose" vendor="Apple" osfamily="OS X" osgen="10.11.X" accuracy="93"><cpe>cpe:/o:apple:mac_os_x:10.11</cpe></osclass>
+<osclass type="media device" vendor="Apple" osfamily="iOS" osgen="12.X" accuracy="93"><cpe>cpe:/o:apple:iphone_os:12</cpe></osclass>
+<osclass type="media device" vendor="Apple" osfamily="iOS" osgen="13.X" accuracy="93"/>
+</osmatch>
+<osmatch name="Apple macOS 10.15 (Catalina) (Darwin 19.6.0)" accuracy="93" line="108025">
+<osclass type="general purpose" vendor="Apple" osfamily="macOS" osgen="10.15.X" accuracy="93"/>
+</osmatch>
+<osmatch name="Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0)" accuracy="92" line="3612">
+<osclass type="phone" vendor="Apple" osfamily="iOS" osgen="11.X" accuracy="92"><cpe>cpe:/o:apple:iphone_os:11</cpe></osclass>
+<osclass type="phone" vendor="Apple" osfamily="iOS" osgen="12.X" accuracy="92"><cpe>cpe:/o:apple:iphone_os:12</cpe></osclass>
+<osclass type="phone" vendor="Apple" osfamily="iOS" osgen="13.X" accuracy="92"><cpe>cpe:/o:apple:iphone_os:13</cpe></osclass>
+<osclass type="general purpose" vendor="Apple" osfamily="macOS" osgen="10.13.X" accuracy="92"><cpe>cpe:/o:apple:mac_os_x:10.13</cpe></osclass>
+<osclass type="general purpose" vendor="Apple" osfamily="macOS" osgen="10.14.X" accuracy="92"><cpe>cpe:/o:apple:mac_os_x:10.14</cpe></osclass>
+<osclass type="general purpose" vendor="Apple" osfamily="macOS" osgen="10.15.X" accuracy="92"><cpe>cpe:/o:apple:mac_os_x:10.15</cpe></osclass>
+</osmatch>
+<osmatch name="Apple macOS 12 (Monterey) (Darwin 21.6.0)" accuracy="89" line="108008">
+<osclass type="general purpose" vendor="Apple" osfamily="macOS" osgen="12.X" accuracy="89"/>
+</osmatch>
+<osmatch name="Apple TV 5" accuracy="88" line="3338">
+<osclass type="media device" vendor="Apple" osfamily="Apple TV" osgen="5.X" accuracy="88"><cpe>cpe:/o:apple:apple_tv:5</cpe></osclass>
+</osmatch>
+<osmatch name="Apple Mac OS X 10.4.8 - 10.4.11 (Tiger) (Darwin 8.8.0 - 8.11.0)" accuracy="87" line="5486">
+<osclass type="general purpose" vendor="Apple" osfamily="Mac OS X" osgen="10.4.X" accuracy="87"><cpe>cpe:/o:apple:mac_os_x:10.4</cpe></osclass>
+</osmatch>
+<osmatch name="Apple iPad tablet computer (iOS 4.3.2)" accuracy="86" line="3678">
+<osclass type="media device" vendor="Apple" osfamily="iOS" osgen="4.X" accuracy="86"><cpe>cpe:/o:apple:iphone_os:4.3.2</cpe></osclass>
+</osmatch>
+<osmatch name="Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1)" accuracy="86" line="3815">
+<osclass type="phone" vendor="Apple" osfamily="iOS" osgen="4.X" accuracy="86"><cpe>cpe:/o:apple:iphone_os:4</cpe></osclass>
+</osmatch>
+<osmatch name="Apple iPhone mobile phone (iOS 4.3.2)" accuracy="86" line="3851">
+<osclass type="phone" vendor="Apple" osfamily="iOS" osgen="4.X" accuracy="86"><cpe>cpe:/o:apple:iphone_os:4.3.2</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.94%E=4%D=10/4%OT=22%CT=1%CU=35138%PV=Y%DS=1%DC=D%G=Y%M=AEF009%T&#xa;OS:M=68E0D7A5%P=i686-pc-windows-windows)SEQ(CI=RD%II=RI)SEQ(SP=105%GCD=1%IS&#xa;OS:R=106%TI=Z%CI=RD%II=RI%TS=21)SEQ(SP=106%GCD=1%ISR=106%TI=Z%CI=RD%II=RI%T&#xa;OS:S=21)OPS(O1=%O2=%O3=%O4=M5B4NW6NNT11SLL%O5=%O6=)OPS(O1=M5B4NW6NNT11SLL%O&#xa;OS:2=M5B4NW6NNT11SLL%O3=M5B4NW6NNT11%O4=M5B4NW6NNT11SLL%O5=M5B4NW6NNT11SLL%&#xa;OS:O6=M5B4NNT11SLL)WIN(W1=0%W2=0%W3=0%W4=FFFF%W5=0%W6=0)WIN(W1=FFFF%W2=FFFF&#xa;OS:%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF=N%T=40%W=0%O=%CC=N%Q=)ECN(R=&#xa;OS:Y%DF=Y%T=40%W=FFFF%O=M5B4NW6SLL%CC=N%Q=)ECN(R=Y%DF=Y%T=40%W=FFFF%O=M5B4N&#xa;OS:W6SLL%CC=Y%Q=)T1(R=Y%DF=N%T=40%S=Z%A=S+%F=AR%RD=0%Q=)T1(R=Y%DF=Y%T=40%S=&#xa;OS:O%A=O%F=AS%RD=0%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)&#xa;OS:T4(R=N)T5(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=&#xa;OS:0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)U1&#xa;OS:(R=Y%DF=N%T=40%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=0%RUD=G)IE(R=Y%DFI=&#xa;OS:S%T=40%CD=S)&#xa;"/>
+</os>
+<distance value="1"/>
+<times srtt="22811" rttvar="25095" to="123191"/>
+</host>
+<host starttime="1759565497" endtime="1759565688"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.104" addrtype="ipv4"/>
+<address addr="F0:B0:40:59:A2:17" addrtype="mac" vendor="Hunan FN-Link Technology Limited"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="1000">
+<extrareasons reason="reset" count="1000" proto="tcp" ports="1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"/>
+</extraports>
+</ports>
+<os><portused state="closed" proto="tcp" portid="1"/>
+<osmatch name="Citrix Access Gateway VPN gateway" accuracy="100" line="19126">
+<osclass type="proxy server" vendor="Citrix" osfamily="embedded" accuracy="100"/>
+</osmatch>
+<osmatch name="Linksys WRT610Nv3 WAP" accuracy="100" line="44446">
+<osclass type="WAP" vendor="Linksys" osfamily="embedded" accuracy="100"><cpe>cpe:/h:linksys:wrt610nv3</cpe></osclass>
+</osmatch>
+</os>
+<distance value="1"/>
+<times srtt="17234" rttvar="19224" to="100000"/>
+</host>
+<host starttime="1759565735" endtime="1759565898"><status state="up" reason="localhost-response" reason_ttl="0"/>
+<address addr="192.168.1.44" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="991">
+<extrareasons reason="reset" count="991" proto="tcp" ports="1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,444,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-901,903,911,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"/>
+</extraports>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" product="Microsoft Windows netbios-ssn" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="https" product="VMware Workstation SOAP API" version="15.1.0" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/o:vmware:Workstation:15.1.0</cpe></service></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="tcp" portid="902"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="vmware-auth" product="VMware Authentication Daemon" version="1.10" extrainfo="Uses VNC, SOAP" tunnel="ssl" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="912"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="vmware-auth" product="VMware Authentication Daemon" version="1.0" extrainfo="Uses VNC, SOAP" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="2222"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="EtherNetIP-1" method="table" conf="3"/></port>
+<port protocol="tcp" portid="3306"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="mysql" product="MySQL" version="8.0.42" method="probed" conf="10"><cpe>cpe:/a:mysql:mysql:8.0.42</cpe></service></port>
+<port protocol="tcp" portid="5357"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="135"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="42145"/>
+<osmatch name="Microsoft Windows 10 1607" accuracy="99" line="69748">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="10" accuracy="99"><cpe>cpe:/o:microsoft:windows_10:1607</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 11 21H2" accuracy="98" line="108196">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="11" accuracy="98"/>
+</osmatch>
+<osmatch name="Microsoft Windows 10 1511" accuracy="96" line="69513">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="10" accuracy="96"><cpe>cpe:/o:microsoft:windows_10:1511</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 10 1703" accuracy="96" line="69820">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="10" accuracy="96"><cpe>cpe:/o:microsoft:windows_10:1703</cpe></osclass>
+</osmatch>
+<osmatch name="Windows Server 2022" accuracy="95" line="108059">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2022" accuracy="95"><cpe>cpe:/o:microsoft:windows_server_2022</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7 or 8.1 R1" accuracy="93" line="76929">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="93"><cpe>cpe:/o:microsoft:windows_7</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="8.1" accuracy="93"><cpe>cpe:/o:microsoft:windows_8.1:r1</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 10 2004" accuracy="93" line="69972">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="10" accuracy="93"/>
+</osmatch>
+<osmatch name="Microsoft Windows 10 10586 - 14393" accuracy="93" line="69416">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="10" accuracy="93"><cpe>cpe:/o:microsoft:windows_10</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 10 1809 - 2004" accuracy="93" line="69954">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="10" accuracy="93"><cpe>cpe:/o:microsoft:windows_10</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7 SP1" accuracy="93" line="77655">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="93"><cpe>cpe:/o:microsoft:windows_7::sp1</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.94%E=4%D=10/4%OT=135%CT=1%CU=42145%PV=Y%DS=0%DC=L%G=Y%TM=68E0D8&#xa;OS:4A%P=i686-pc-windows-windows)SEQ(SP=F7%GCD=1%ISR=107%TI=I%CI=I%II=I%SS=S&#xa;OS:%TS=A)SEQ(SP=F8%GCD=1%ISR=107%TI=I%CI=I%II=I%SS=S%TS=A)OPS(O1=MFFD7NW8ST&#xa;OS:11%O2=MFFD7NW8ST11%O3=MFFD7NW8NNT11%O4=MFFD7NW8ST11%O5=MFFD7NW8ST11%O6=M&#xa;OS:FFD7ST11)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF=&#xa;OS:Y%T=80%W=FFFF%O=MFFD7NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%&#xa;OS:Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=0%S=Z&#xa;OS:%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%&#xa;OS:DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%&#xa;OS:O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=8&#xa;OS:0%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=Z%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)&#xa;"/>
+</os>
+<uptime seconds="6476" lastboot="Sat Oct  4 10:30:22 2025"/>
+<distance value="0"/>
+<tcpsequence index="248" difficulty="Good luck!" values="3D0B6C7D,F8CE689F,C315BEE1,8E1CED0A,AEA5F959,D8555281"/>
+<ipidsequence class="Incremental" values="109D,109F,10A1,10A3,10A5,10A7"/>
+<tcptssequence class="1000HZ" values="62CCAA,62CD16,62CD85,62CDF0,62CE5F,62CECB"/>
+<times srtt="392" rttvar="514" to="100000"/>
+</host>
+<runstats><finished time="1759565898" timestr="Sat Oct  4 12:18:18 2025" summary="Nmap done at Sat Oct  4 12:18:18 2025; 256 IP addresses (8 hosts up) scanned in 416.40 seconds" elapsed="416.40" exit="success"/><hosts up="8" down="248" total="256"/>
+</runstats>
+</nmaprun>

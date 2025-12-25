@@ -1,0 +1,1 @@
+# Nmap 7.94 scan initiated Sat Oct  4 10:59:22 2025 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sn -oA home_hosts_scan 192.168.1.0/24

@@ -1,0 +1,56 @@
+version: "3"
+
+networks:
+  net-1:
+    name: net-1
+    ipam:
+      config:
+        - subnet: 10.3.0.0/24
+
+services:
+    attacker:
+        image: sb27/sf-lab1:latest
+        container_name: seed-attacker
+        tty: true
+        cap_add:
+                - ALL
+        privileged: true
+        volumes:
+                - ./volume:/volume
+        network_mode: host
+                  
+    User1:
+        image: sb27/sf-lab1:latest
+        container_name: HostA
+        tty: true
+        cap_add:
+                - ALL
+        networks:
+            net-1:
+                ipv4_address: 10.3.0.2
+
+
+    User2:
+        image: sb27/sf-lab1:latest
+        container_name: HostB
+        tty: true
+        cap_add:
+                - ALL
+        networks:
+            net-1:
+                ipv4_address: 10.3.0.3
+
+
+    Victim:
+        image: sb27/sf-lab1:latest
+        container_name: Victim
+        tty: true
+        cap_add:
+                - ALL
+        privileged: true
+        sysctls:
+                - net.ipv4.tcp_syncookies=0
+
+        networks:
+            net-1:
+                ipv4_address: 10.3.0.4

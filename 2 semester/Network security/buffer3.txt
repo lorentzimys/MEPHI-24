@@ -1,0 +1,7 @@
+[Interface]
+  PrivateKey = <Приватный ключ клиента>
+  Address = 10.8.0.2/24
+  [Peer]
+  PublicKey = <Публичный ключ сервера Wireguard>
+  AllowedIPs = 10.8.0.0/24
+  Endpoint = <IP сервера Wireguard>:51820

@@ -1,0 +1,17 @@
+# Разрешаем входящие соединения на порт OpenVPN (UDP или TCP)
+sudo iptables -I INPUT -i eth0 -m state --state NEW -p tcp --dport 1194 -j ACCEPT
+
+# Разрешаем форвардинг трафика между клиентами
+sudo iptables -I FORWARD -i tun+ -j ACCEPT
+
+# Разрешаем форвардинг с tun+ на основной интерфейс (ответный трафик)
+sudo iptables -I FORWARD -i tun+ -o eth0 -m state --state ESTABLISHED,RELATED -j ACCEPT
+
+# Разрешаем форвардинг с основного интерфейса на tun+ (входящий трафик)
+sudo iptables -I FORWARD -i eth0 -o tun+ -m state --state ESTABLISHED,RELATED -j ACCEPT
+
+# Настраиваем NAT для VPN-клиентов (замени lo на eth0, если клиенты должны выходить в интернет)
+sudo iptables -t nat -A POSTROUTING -s 10.8.0.0/24 -o eth0 -j MASQUERADE
+
+# Разрешаем исходящий трафик через VPN
+sudo iptables -A OUTPUT -o tun+ -j ACCEPT

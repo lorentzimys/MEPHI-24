@@ -1,0 +1,12 @@
+[options]
+  UseSyslog = true
+  Interface = eth0
+
+[openclosePort]
+  sequence = 7000,8000,9000  # Порты для последовательности Port Knocking
+  seq_timeout = 5  # Время (в секундах), в течение которого должна быть отправлена вся последовательность
+
+  start_command = /sbin/iptables -I INPUT -s %IP% -p tcp --dport 22 -j ACCEPT  # Разрешить доступ на SSH порт (22)
+  cmd_timeout = 60  # Время (в секундах) для завершения команды
+  stop_command = /sbin/iptables -D INPUT -s %IP% -p tcp --dport 22 -j ACCEPT  # Закрыть доступ на SSH после завершения
+  tcpflags = syn  # Условия для TCP-пакетов, которые должны быть установлены для Port Knocking (флаг SYN)

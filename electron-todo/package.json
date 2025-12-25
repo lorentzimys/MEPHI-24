@@ -1,0 +1,22 @@
+{
+  "name": "electron-todo",
+  "version": "1.0.0",
+  "description": "Simple Todo App built with Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron ."
+  },
+  "keywords": [
+    "electron",
+    "todo",
+    "app"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0"
+  }
+}
+
+

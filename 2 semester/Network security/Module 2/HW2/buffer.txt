@@ -1,0 +1,37 @@
+br-e0083dc27e5d: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 10.3.0.1  netmask 255.255.255.0  broadcast 10.3.0.255
+        ether 02:42:9b:b5:37:9b  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 38 overruns 0  carrier 0  collisions 0
+
+docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        ether 02:42:d7:26:2a:54  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 38 overruns 0  carrier 0  collisions 0
+
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fd79:d1d4:3fe0:0:df21:2295:52ac:2b7c  prefixlen 64  scopeid 0x0<global>
+        inet6 2a02:2698:682a:270a:852f:3d7a:14ee:d6f5  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::a00:27ff:fe78:bd90  prefixlen 64  scopeid 0x20<link>
+        inet6 fd79:d1d4:3fe0:0:a00:27ff:fe78:bd90  prefixlen 64  scopeid 0x0<global>
+        inet6 fd79:d1d4:3fe0:0:88f1:3260:9a94:c8ce  prefixlen 64  scopeid 0x0<global>
+        inet6 2a02:2698:682a:270a:a00:27ff:fe78:bd90  prefixlen 64  scopeid 0x0<global>
+        ether 08:00:27:78:bd:90  txqueuelen 1000  (Ethernet)
+        RX packets 40807  bytes 25046863 (23.8 MiB)
+        RX errors 0  dropped 271  overruns 0  frame 0
+        TX packets 8553  bytes 906056 (884.8 KiB)
+        TX errors 0  dropped 18 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 1114  bytes 147334 (143.8 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1114  bytes 147334 (143.8 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0

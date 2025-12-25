@@ -1,0 +1,44 @@
+
+version: "3"
+
+networks:
+  net-1:
+    name: net-1
+    ipam:
+      config:
+        - subnet: 10.3.0.0/24
+
+services:
+  HostA:
+    image: sb27/sf-lab1:latest
+    container_name: HostA
+    # tty: true
+    cap_add:
+      - ALL
+    networks:
+      net-1:
+        ipv4_address: 10.3.0.2
+                  
+  HostB:
+    image: sb27/sf-lab1:latest
+    container_name: HostB
+    # tty: true
+    cap_add:
+      - ALL
+    networks:
+      net-1:
+        ipv4_address: 10.3.0.3
+
+  HostM:
+    image: sb27/sf-lab1:latest
+    container_name: HostM
+    # tty: true
+    cap_add:
+      - ALL
+    privileged: true
+    volumes:
+      - ./volume:/volume
+    networks:
+      net-1:
+        ipv4_address: 10.3.0.37
+

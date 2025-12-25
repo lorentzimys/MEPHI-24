@@ -1,0 +1,54 @@
+sudo iptables -L -v -n                             
+[sudo] password for astepanov: 
+Sorry, try again.
+[sudo] password for astepanov: 
+Chain INPUT (policy ACCEPT 211K packets, 7624M bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       tcp  --  10.0.3.4 *       0.0.0.0/0            0.0.0.0/0            tcp dpt:1194
+    0     0 ACCEPT     udp  --  eth0   *       0.0.0.0/0            0.0.0.0/0            udp dpt:51194
+    0     0 ACCEPT     all  --  wg0    *       0.0.0.0/0            0.0.0.0/0           
+   13   780 ACCEPT     tcp  --  eth0   *       0.0.0.0/0            0.0.0.0/0            state NEW tcp dpt:1194
+    0     0 ACCEPT     udp  --  eth0   *       0.0.0.0/0            0.0.0.0/0            udp dpt:51820
+    0     0 ACCEPT     all  --  10.0.3.4 *       0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED
+    0     0 DROP       all  --  10.0.3.4 *       0.0.0.0/0            0.0.0.0/0           
+
+Chain FORWARD (policy DROP 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 ACCEPT     all  --  wg0    eth0    0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     all  --  eth0   wg0     0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     all  --  eth0   tun+    0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED
+    0     0 ACCEPT     all  --  tun+   eth0    0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED
+    0     0 ACCEPT     all  --  tun+   *       0.0.0.0/0            0.0.0.0/0           
+    0     0 DOCKER-USER  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+    0     0 DOCKER-ISOLATION-STAGE-1  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     all  --  *      docker0  0.0.0.0/0            0.0.0.0/0            ctstate RELATED,ESTABLISHED
+    0     0 DOCKER     all  --  *      docker0  0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     all  --  docker0 !docker0  0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     all  --  docker0 docker0  0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     all  --  *      br-e0083dc27e5d  0.0.0.0/0            0.0.0.0/0            ctstate RELATED,ESTABLISHED
+    0     0 DOCKER     all  --  *      br-e0083dc27e5d  0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     all  --  br-e0083dc27e5d !br-e0083dc27e5d  0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     all  --  br-e0083dc27e5d br-e0083dc27e5d  0.0.0.0/0            0.0.0.0/0           
+
+Chain OUTPUT (policy ACCEPT 163K packets, 8532K bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+   42 23800 ACCEPT     all  --  *      tun+    0.0.0.0/0            0.0.0.0/0           
+
+Chain DOCKER (2 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain DOCKER-ISOLATION-STAGE-1 (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DOCKER-ISOLATION-STAGE-2  all  --  docker0 !docker0  0.0.0.0/0            0.0.0.0/0           
+    0     0 DOCKER-ISOLATION-STAGE-2  all  --  br-e0083dc27e5d !br-e0083dc27e5d  0.0.0.0/0            0.0.0.0/0           
+    0     0 RETURN     all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain DOCKER-ISOLATION-STAGE-2 (2 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       all  --  *      docker0  0.0.0.0/0            0.0.0.0/0           
+    0     0 DROP       all  --  *      br-e0083dc27e5d  0.0.0.0/0            0.0.0.0/0           
+    0     0 RETURN     all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain DOCKER-USER (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 RETURN     all  --  *      *       0.0.0.0/0            0.0.0.0/0           

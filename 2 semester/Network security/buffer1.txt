@@ -1,0 +1,63 @@
+;local a.b.c.d
+
+port 1194
+
+;proto tcp
+proto udp
+
+;dev tap
+dev tun
+;dev-node MyTap
+
+ca ca.crt
+cert kali.crt
+key kali.key  # This file should be kept secret
+
+dh dh2048.pem
+
+;data-ciphers AES-256-GCM:AES-128-GCM:?CHACHA20-POLY1305:AES-256-CBC
+
+topology subnet
+
+server 10.8.0.0 255.255.255.0
+
+ifconfig-pool-persist /var/log/openvpn/ipp.txt
+
+;server-bridge 10.8.0.4 255.255.255.0 10.8.0.50 10.8.0.100
+
+;server-bridge
+
+;push "route 192.168.10.0 255.255.255.0"
+;push "route 192.168.20.0 255.255.255.0"
+
+;client-config-dir ccd
+;route 192.168.40.128 255.255.255.248
+
+;client-config-dir ccd
+;route 10.9.0.0 255.255.255.252
+
+;learn-address ./script
+
+;push "redirect-gateway def1 bypass-dhcp"
+
+;push "dhcp-option DNS 208.67.222.222"
+;push "dhcp-option DNS 208.67.220.220"
+
+;client-to-client
+
+;duplicate-cn
+
+keepalive 10 120
+;tls-auth ta.key 0 # This file is secret
+tls-crypt ta.key
+;cypher AES--256-CBC
+cipher AES-256-GCM
+auth SHA256
+;dh dh2048.pem
+dh none
+port 1194
+proto tcp
+
+
+;max-clients 100
+

@@ -1,0 +1,5 @@
+└─$ sudo ss -tulnp 
+Netid State   Recv-Q  Send-Q   Local Address:Port    Peer Address:Port Process                              
+tcp   LISTEN  0       32             0.0.0.0:21           0.0.0.0:*     users:(("vsftpd",pid=834,fd=3))     
+tcp   LISTEN  0       4096         127.0.0.1:34273        0.0.0.0:*     users:(("containerd",pid=844,fd=9)) 
+                                                                                                            

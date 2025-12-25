@@ -1,0 +1,5 @@
+└─$ sudo iptables -L -n --line-numbers                  
+Chain INPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+1    REJECT     tcp  --  0.0.0.0/0            0.0.0.0/0            tcp dpt:5000 reject-with tcp-reset
+2    REJECT     tcp  --  0.0.0.0/0            0.0.0.0/0            tcp dpt:5000 reject-with icmp-port-unreachable
